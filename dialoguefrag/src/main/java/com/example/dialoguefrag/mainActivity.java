@@ -66,8 +66,10 @@ public class mainActivity extends AppCompatActivity {
         builder.setPositiveButton("I Know!", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
-                //user clicked OK button
+
             }
         });
+        AlertDialog dialog = builder.create();
+        dialog.show();
     }
 }
