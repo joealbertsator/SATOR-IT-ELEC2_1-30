@@ -16,3 +16,4 @@ rootProject.name = "My Application1"
 include ':app'
 include ':dialoguefrag'
 include ':bottnav'
+include ':databasessql'
